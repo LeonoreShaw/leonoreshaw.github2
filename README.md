@@ -9,7 +9,7 @@ blog文件夹执行以下CMD命令
 hexo s
 ```
 ## 推送到GitHub
-在特殊网络环境下，blog文件夹执行以下CMD命令，等待一下，在https://leonoreshaw.github.io上查看
+在特殊网络环境下，blog文件夹执行以下CMD命令，等待一下，在 https://leonoreshaw.github.io 上查看
 ```
 hexo g
 hexo d
