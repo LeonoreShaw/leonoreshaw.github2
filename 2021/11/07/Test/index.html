@@ -11,7 +11,7 @@
   
 
 <head>
-	<title>Oh&gt;..&lt; 无法访问! -  Léonore</title>
+	<title>Test -  Léonore</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="keywords" content="Blog" />
 	<meta name="description" content="It gives people a sense of emptiness">
@@ -506,31 +506,77 @@
 			<div class="main">
 				<div class="main-content">
 					
-<div class="dearmsdan-post" id="Permalinks">
-  <article>
-    <style>
-    #no{
-    position: relative;
-        top: 30%;
-        left: 50%;
-        -webkit-transform: translate(-50%, 32%);
-        -moz-transform: translate(-50%, 32%);
-        -ms-transform: translate(-50%, 32%);
-        -o-transform: translate(-50%, 32%);
-        transform: translate(-50%, 32%);
-        font-size: 24px;
-    line-height: 72px;
-    margin-bottom: 36px;
-    white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-    }
+
+<style>
+	#dearmsdanPost:hover{
+   		    background-color: rgba(255, 255, 255, 0.5)!important;
+	}	
 </style>
-<div id="no">
-    404 Oh>..<  我找不到回家的路了
+<div class="dearmsdan">
+	<div class="dearmsdan-post" id="dearmsdanPost">
+		<div class="dearmsdan-title">
+			<h1>Test</h1>
+		</div>
+	  <div id="post" class="dearmsdan-post-Statistics">
+            <a>2021年11月07日</a>
+		  	<a class="post-count">99 字</a>
+		
+		  <a class=" -link" href="/categories/Technology/">Technology</a>
+		
+		
+		  <a class=" -none-link" href="/tags/Internet/" rel="tag">Internet</a>
+		
+	  </div>
+		
+		
+<div id="modal" style="display:none">
+
+<aside id="article-toc" class="fixed-toc">
+    <div id="article-toc-inner">
+        <strong class="sidebar-title">目录</strong>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Surfing-the-Internet-World-Freely"><span class="toc-text">Surfing the Internet World Freely</span></a></li></ol>
+    </div>
+</aside>
 </div>
-  </article>
-	
+
+
+		
+			<a href="#modal" class="second">
+				<div class="i">
+						<i style="font-size:20px" class="DearMsDanIconFont icon-sousuo">
+						<span style="font-size:0px"><br/>目<br/>录</span>
+						</i>
+				</div>
+			</a>
+
+
+
+
+<script>
+	$(".second .i").mouseover(function(){
+  $(".second .i span").css("font-size","18px");
+});
+	$(".second .i").mouseleave(function(){
+  $(".second .i span").css("font-size","0px");
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+		<div>
+			  <article>
+				<h1 id="Surfing-the-Internet-World-Freely"><a href="#Surfing-the-Internet-World-Freely" class="headerlink" title="Surfing the Internet World Freely"></a>Surfing the Internet World Freely</h1><p>More coming soon ~~ ~~</p>
+
+			  </article>
+		</div>
 		
 		
 
@@ -589,7 +635,50 @@ $(window).load(function(){
 });*/
 </script>
 			
+		
+	  
+	
+		
+
+
+<div class="copy">
+<i></i>
+<strong>本文作者：</strong>
+	
+	 
+        Léonore<br>
+        
+	
+<strong>本文链接：</strong>
+	<a href="https://leonoreshaw.github.io/2021/11/07/Test/" title="https:&#x2F;&#x2F;leonoreshaw.github.io&#x2F;2021&#x2F;11&#x2F;07&#x2F;Test&#x2F;" target="_blank" rel="noopener">https:&#x2F;&#x2F;leonoreshaw.github.io&#x2F;2021&#x2F;11&#x2F;07&#x2F;Test&#x2F;</a><br>
 </div>
+
+	  
+	</div>
+</div>
+<script>
+	(function(){
+		var jmz = {};
+		jmz.GetLength = function(str) {
+			var realLength = 0, len = str.length, charCode = -1;
+			for (var i = 0; i < len; i++) {
+				charCode = str.charCodeAt(i);
+				if (charCode >= 0 && charCode <= 128) 
+					  realLength += 1;
+				else
+					  realLength += 1;
+			}
+			return realLength;
+		};
+		//console.log(str);
+		var article = document.querySelector('.dearmsdan-post article').innerHTML.trim();
+
+		var b = article.replace(/<.*?>/ig,"");
+		
+		$('.post-count').html(jmz.GetLength(b)+"字");
+	})()
+</script>
+
 
     				
 					
